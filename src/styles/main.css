@@ -116,6 +116,31 @@ section .text-container .text-box h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+section .card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+section .card-container .card-box{
+    margin: 5px;
+    padding: 10px;
+    border: solid thin #757575;
+    border-radius: 10px;
+    background-color: #171717;
+    overflow: hidden;
+}
+section .card-container .card-box img{
+    width: 100%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+section .card-container .card-box h3{
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
 
 @media (max-width: 900px) {
 
@@ -173,6 +198,11 @@ section .text-container .text-box h3 {
     margin-right: 0px;
     width: 300px;
   }
+
+  section .card-container{
+    display: flex;
+    flex-direction: column;
+}
 }
 
 .reveal {

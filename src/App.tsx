@@ -17,7 +17,7 @@ function App() {
           <a href="#home" className="active">Home</a>
           <a href="#about">Sobre</a>
           <a href="#services">Projetos</a>
-          <a href="#contact">Contato</a>
+          <a href="#contact">Social</a>
         </nav>
       </header>
       <section id="home" className='bg-gray-900 flex flex-col'>
@@ -39,11 +39,11 @@ function App() {
           <h2>Sobre</h2>
           <div className="text-container"  >
             <div className="profile-box ">
-              <img className=" rounded-full border-4  border-orange-500" src={profile} />
+              <img className=" rounded-full border-8  border-orange-500" src={profile} />
             </div>
             <div className=" text-box ">
               <h3></h3>
-              <p>Sou Pai, gamer e apaixonado por Programação. </p>
+              <p>Sou Pai, gamer apaixonado primeiramente por minha esposa{` (risos..) `}e por Programação. </p>
               <p>Sempre fui muito ligado ao mundo da tecnologia e tudo relacionado a ele. Onde aos 14 anos iniciei meu primeiro curso de TI em que ingressei no mundo do Designer Gráfico mas sempre senti que faltava algo mais, um desafio maior.... </p>
               <p>Até que conheci a Programação, foi quando meus olhos brilharam e vi que ali é meu lugar e me senti de fato em casa. Desde então eu mergulhei com tudo nesse mundo e venho buscando evolução e desafios cada vez maiores! Pois sempre haverá um próximo nível.</p>
               <h3>Skills</h3>
@@ -72,53 +72,61 @@ function App() {
       <section id="services">
         <div className="container reveal">
           <h2>Projetos</h2>
-          <div className="text-container">
-            <div className="text-box">
-              <h3>Section text</h3>
+          <div className="card-container">
+            <div className="card-box">
+              <a href="https://komander.vercel.app/"> 
+                <img  className='hover:shadow hover:shadow-violet-500' src="/public/komander.jpg" />
+              </a>
+              <h3>Komander</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                eius molestiae perferendis eos provident vitae iste.
+                WebApp PMS {' (Sistema de Gestão Hoteleira) '} em processo de criação a fim de estudos baseado no sistema em que trabalho na empresa atual.
+              </p>
+                <br />
+              <p>
+              <b>Tecnologias:</b> ReactJS, NextJS, PostgreSQL, APIs REST em PHP.
               </p>
             </div>
-            <div className="text-box">
-              <h3>Section Text</h3>
+            <div className="card-box">
+              
+              <img  className='hover:shadow hover:shadow-orange-500' src="/public/rockethelp.jpg" />
+              <h3>RocketHelp - ReactNative</h3>
+              
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                eius molestiae perferendis eos provident vitae iste.
+                RocketHelp é um app para agilizar a comunicação com sua equipe de suporte TI.
+              </p>
+              <br />
+              <p>
+               <b>Tecnologias:</b> React Native, Firebase e Native Base.
               </p>
             </div>
-            <div className="text-box">
-              <h3>Section Text</h3>
+            <div className="card-box">
+              <img className='hover:shadow hover:shadow-yellow-500' src="/public/nextcrud.jpg" />
+              <h3>Next Crud</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                eius molestiae perferendis eos provident vitae iste.
+                WebApp de estudo onde criei um CRUD completo ultilizando NextJS , TailwnindCSS , Firebase e NodeJS
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="contact">
+      <section id="contact" className="bg-neutral-900 flex flex-col">
         <div className="container reveal">
-          <h2>Contato</h2>
-          <div className="text-container">
-            <div className="text-box">
-              <h3>Section Text</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h2>Social</h2>
+          <div className="text-container ">
+            <div className="text-box w-full flex flex-col items-center">
+              <p className='text-xl'><b>Email: </b> mateusgarcia.dev@gmail.com</p>
+              <p className='text-xl'><b>GitHub: </b> <a className='text-violet-400' href="https://github.com/mat-garcia"> /mat-garcia</a></p>
+              <p className='text-xl'><b>Linked In: </b> <a className='text-violet-400' href="https://www.linkedin.com/in/mateus-garcia/"> @mateus-garcia</a></p>
             </div>
-            <div className="text-box">
-              <h3>Section Text</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+
           </div>
         </div>
+        
       </section>
+      <footer className='text-zinc-400 mt-12 text-sm font-bold font-sas text-center mb-6'>
+        @ Mateus Garcia | 2022
+      </footer>
       </>
   )
 }
