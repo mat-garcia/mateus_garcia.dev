@@ -4,6 +4,9 @@ import logoImg from '../public/mat.png';
 import rocket from '../public/rocket.gif';
 import down from '../public/down.svg';
 import profile from '../public/profile.jfif'
+import komander from '../public/komander.jpg'
+import rh from '../public/rockethelp.jpg'
+import nextcrud from '../public/nextcrud.jpg'
 
 function App() {
   
@@ -75,7 +78,7 @@ function App() {
           <div className="card-container">
             <div className="card-box">
               <a href="https://komander.vercel.app/"> 
-                <img  className='hover:shadow hover:shadow-violet-500' src="/public/komander.jpg" />
+                <img  className='hover:shadow hover:shadow-violet-500' src={komander} />
               </a>
               <h3>Komander</h3>
               <p>
@@ -88,7 +91,7 @@ function App() {
             </div>
             <div className="card-box">
               
-              <img  className='hover:shadow hover:shadow-orange-500' src="/public/rockethelp.jpg" />
+              <img  className='hover:shadow hover:shadow-orange-500' src={rh} />
               <h3>RocketHelp - ReactNative</h3>
               
               <p>
@@ -100,7 +103,7 @@ function App() {
               </p>
             </div>
             <div className="card-box">
-              <img className='hover:shadow hover:shadow-yellow-500' src="/public/nextcrud.jpg" />
+              <img className='hover:shadow hover:shadow-yellow-500' src={nextcrud} />
               <h3>Next Crud</h3>
               <p>
                 WebApp de estudo onde criei um CRUD completo ultilizando NextJS , TailwnindCSS , Firebase e NodeJS
