@@ -12,7 +12,7 @@ function App() {
   
   return ( 
       <>
-      <header className='bg-gray-900 '>
+      <header>
           <div className='logo'>
             <img src={logoImg} />
           </div>
@@ -46,9 +46,14 @@ function App() {
             </div>
             <div className=" text-box ">
               <h3></h3>
-              <p>Sou Pai, gamer apaixonado primeiramente por minha esposa{` (risos..) `}e por Programação. </p>
+              <p>Sou um Desenvolvedor Full-stack com 2 anos de experiência em desenvolvimento web. Atuamente trabalho em aplicações escaláveis para gestão Hoteleira (Sistema PMS web). </p>
+              <p>Possuo sólidos conhecimentos em programação funcional, Testes Unitários, Deploy Automatizado {'(GitHub Actions)'}, Versionamento de código, micro serviços, Ci/CD. </p>
+              <p>Tenho muito interesse em Desenvolvimento Front-end com Tecnologias mais ultilizadas atualmente como ReactJS e Desenvolvimento Mobile com React Native.</p>
+              <p>Focado na evolução profissional e técnica a fim de se tornar um Dev de alto nível. </p>
+
+              {/* <p>Sou Pai, gamer apaixonado primeiramente por minha esposa{` (risos..) `}e por Programação. </p>
               <p>Sempre fui muito ligado ao mundo da tecnologia e tudo relacionado a ele. Onde aos 14 anos iniciei meu primeiro curso de TI em que ingressei no mundo do Designer Gráfico mas sempre senti que faltava algo mais, um desafio maior.... </p>
-              <p>Até que conheci a Programação, foi quando meus olhos brilharam e vi que ali é meu lugar e me senti de fato em casa. Desde então eu mergulhei com tudo nesse mundo e venho buscando evolução e desafios cada vez maiores! Pois sempre haverá um próximo nível.</p>
+              <p>Até que conheci a Programação, foi quando meus olhos brilharam e vi que ali é meu lugar e me senti de fato em casa. Desde então eu mergulhei com tudo nesse mundo e venho buscando evolução e desafios cada vez maiores! Pois sempre haverá um próximo nível.</p> */}
               <h3>Skills</h3>
               <div className="flex flex-wrap ">
                 <div className='bg-yellow-500 text-center p-1 rounded-sm m-1'> JS * </div>
